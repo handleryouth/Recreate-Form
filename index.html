@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div>
+    <div class="back-colour">
+      <center>
+              <h2>Recreate A Form</h2>
+                <p><strong>Note</strong>: Form is to be completed at least 21 days prior to appointment</p>
+      </center>
+
+      <div>
+        <fieldset>
+          <legend>Personal Details</legend>
+          <table>
+            <tr>
+              <td>Name:</td>
+              <td><input type="text" required placeholder="Enter your name here"><br></td>
+            </tr>
+            <tr>
+              <td>Address:</td>
+              <td><input type="text" required placeholder="Enter your address here"><br></td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td><input type="email" required placeholder="Enter your email here"><br></td>
+            </tr>
+            <tr>
+              <td>Phone Number:</td>
+              <td><input type="tel" required placeholder="Enter your phone number here"><br></td>
+            </tr>
+            <tr>
+              <td><label>Gender</label><br>
+              <input type="radio" required value="Male">Male<br>
+              <input type="radio" required value="Female">Female<br>
+              <input type="radio" required value="Other">Other<br>
+              </td>
+            </tr>
+            <tr>
+              <td>Date of Birth</td>
+              <td>            <input type="date" required value=""></td>
+            </tr>
+
+          </table>
+
+        </fieldset>
+
+      </div>
+      <div class="check-box">
+        Check all that apply
+        <form class="" action="index.html" method="post">
+          <input  type="checkbox" name="" value="">I work Full-time<br>
+          <input  type="checkbox" name="" value="">I have a car<br>
+          <input  type="checkbox" name="" value="">I like programming<br>
+          <input  type="checkbox" name="" value="">I live in Indonesia<br>
+          <input  type="checkbox" name="" value="">I like reading book<br><br>
+        </form>
+        <table>
+          <tr>
+            <td>Education level</td>
+            <td>
+              <select>
+              <option>University</option>
+              <option>College</option>
+              <option>High School</option>
+              <option>None</option>
+            </select>
+          </td>
+          </tr>
+        </table>
+
+      </div>
+      <div>
+        <fieldset>
+          <legend>Essay section</legend>
+          <p>In 50 Words or more explain why you want to work in here !</p>
+          <textarea required rows="9" cols="60" placeholder="Enter Text Here"></textarea><br>
+          <p style="display:inline;">Any Course Certificates ?</p>
+          <button type="button">Attach Files</button><br>
+        </fieldset>
+      </div>
+      <center>
+        <button type="submit">Submit Form</button>
+      </center>
+    </div>
+  </div>
+</body>
+
+</html>
