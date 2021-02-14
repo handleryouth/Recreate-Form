@@ -1,0 +1,22 @@
+body{
+  font-family: 'Arvo';
+  font-size: 18px;
+}
+
+.back-colour{
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #a1cae2;
+}
+
+fieldset{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.check-box{
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+}
